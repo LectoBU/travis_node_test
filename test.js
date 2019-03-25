@@ -5,7 +5,7 @@ if (typeof module !== 'undefined' && module.exports) {
     var QUnit = require('qunit'); // require QUnit node.js module
     // alias the QUnit.test method so we don't have to change all our tests
     var test = QUnit.test; // stores a copy of QUnit.test
-    require('qunit-tap')(QUnit, console.log); // use console.log for test output
+    //require('qunit-tap')(QUnit, console.log); // use console.log for test output
     var getChange = require('./change.js'); // load our getChange method
   }
 
