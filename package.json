@@ -8,6 +8,6 @@
   },
   "scripts": {
     "test": "jshint hello.js",
-    "unittest": "qunit test.js"
+    "test": "qunit test.js"
   }
 }
