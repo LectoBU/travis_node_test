@@ -9,6 +9,6 @@
   },
   "scripts": {
     "test": "jshint hello.js",
-    "test": "qunitjs-2 test.js"
+    "test": "qunit test.js"
   }
 }
