@@ -8,6 +8,11 @@
     "qunit": "2.9.2",
     "eslint": ""
   },
+  "eslintConfig": {
+    "env": {
+        "browser": true,
+        "node": true
+    },
   "scripts": {
     "test": "eslint hello.js; qunit test.js"
   }
