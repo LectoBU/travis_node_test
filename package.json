@@ -5,9 +5,10 @@
   "version": "0.0.1",
   "devDependencies": {
     "jshint": "^2.6.0",
-    "qunit": "2.9.2"
+    "qunit": "2.9.2",
+    "eslint": ""
   },
   "scripts": {
-    "test": "jshint hello.js; qunit test.js"
+    "test": "eslint hello.js; qunit test.js"
   }
 }
