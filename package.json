@@ -8,7 +8,7 @@
     "qunit": "2.9.2"
   },
   "scripts": {
-    "test": "jshint hello.js"//,
-    //"test": "qunit test.js"
+    "test": "jshint hello.js"
+   
   }
 }
